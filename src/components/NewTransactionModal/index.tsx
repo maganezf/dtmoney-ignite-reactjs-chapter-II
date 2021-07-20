@@ -80,6 +80,7 @@ export const NewTransactionModal = ({
           type="text"
           placeholder="Título"
           name="title"
+          value={newTransaction.title}
           onChange={handleChangeInput}
         />
 
@@ -88,6 +89,7 @@ export const NewTransactionModal = ({
           min={0}
           placeholder="Valor"
           name="amount"
+          value={newTransaction.amount}
           onChange={handleChangeInput}
         />
 
@@ -121,6 +123,7 @@ export const NewTransactionModal = ({
           type="text"
           placeholder="Categoria"
           name="category"
+          value={newTransaction.category}
           onChange={handleChangeInput}
         />
 
